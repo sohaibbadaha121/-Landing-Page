@@ -472,3 +472,52 @@ border-radius: 20px;
     position: relative;
 
 }
+.line{
+
+width: 200px;
+height: 3px;
+border: none;
+background-color: #333;
+margin-left: 50px;
+}
+
+.line1{
+
+width: 210px;
+height: 3px;
+border: none;
+background-color: #333;
+margin-left: 50px;
+
+}
+.lines{
+margin-top: 15px;
+display: flex;
+justify-content: center;
+}
+.textandicones{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+   
+}
+.icones1{
+    position: absolute;
+    left: 565px;
+    top:1px
+}
+.icones2{
+
+position: absolute;
+left: 823px;
+color:#8D959D;
+
+}
+.icones3{
+
+position: absolute;
+left: 1077px;
+color: #8D959D;
+}
