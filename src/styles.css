@@ -1,15 +1,18 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.contenir{
+
+display: block;
 }
 
 /* make the nav flex logo and linkes and buttons */
 nav{
+
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 10px 30px;
+padding: 1px 30px;
+/* background-color: aqua; */
+
 }
 
  nav .links{
@@ -20,11 +23,14 @@ padding: 10px 30px;
 nav .links a{
 text-decoration: none;
 font-size: 16px;
-color: #000;
-font-weight: 300;
+color: #717172;
+font-weight:Regular;
+
 }
 
 button{
+
+
     border: 0.5px solid #ccc;
     border-radius: 20px;
     margin-left: 5px;
@@ -44,9 +50,211 @@ button{
 .get{
 
     color: white;
-    background-color: #28a745;
-    border-color: #28a745;
+    background-color: #00D47E;
+    border-color: #00D47E;
+}
 
+.xuryaprodct #fphoto{
+
+width: 98.5%;
+margin-left: 13px;
+border: solid 1px white;
+border-radius: 20px;
+opacity: 1;
+
+}
+
+.xuryaprodct{
+     /* background-color: #28a745; */
+     position: relative;
+     
+}
+
+.firstext{
+    color :white;
+    position :absolute;   
+    top: 30%;
+    left: 6%;
+    z-index: 2;
+    font-weight: Regula;
+    
+}
+
+.secondtext{
+
+/* background-color: bisque; */
+position: absolute;
+
+top :34% ;
+left: 6%;
+color: white;
+font-size: 100px;
+font-weight: 300;
+z-index: 2;
+}
+
+.linkesinsidefirstphoto {
+    display: flex;
+    position: absolute;
+    bottom: 30%;
+    left: 6%;
+    gap: 40px;
+
+}
+
+
+.linkesinsidefirstphoto a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .linkesinsidefirstphoto a i{
+/* margin-right: 30px; */
+
+ .text3{
+
+   font-weight: 400;
+
+ }
+
+
+ .text3 #span2{
+
+    color:#8D959D;
+
+ }
+
+ .textunderfirstphoto{
+
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px ;
+
+ }
+
+ .textunderfirstphoto #par{
+
+    font-weight: Regular;
+    color: #717172;
+
+
+
+ }
+.items{
+    
+display: flex;
+justify-content: flex-start;
+height: 100% !important;
+width: 100%;
+gap: 0;
+margin-top: 50px;
+margin-left: 220px;
+
+}
+
+.item{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #F2F4F4 solid 1vw;
+    background-color:#F2F4F4 ;
+    width: 1px;
+    height: 1px;
+    border-radius:50%;
+    padding: 120px;
+    text-align: center;
+
+}
+
+/* .item2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+   background-color: white;
+   border: #00D47E solid 1px; 
+   width: 1px;
+   height: 1px;
+   border-radius:50%;
+   padding: 80px;
+   margin-right:1270px;
+   
+}
+
+
+.item3{
+
+    width: 40px;
+    height: 50px;
+   background-color: rgb(255, 255, 255);
+   border: #00D47E solid 1px; 
+   
+   
+} */
+
+.item #item1{
+
+font-weight: bold;
+color: #00D47E;
+}
+
+.item #item1 #span1initem1{
+
+font-weight: bold;
+font-style: normal;
+font-size: large;
+ letter-spacing:1px ;
+}
+
+
+.item #item1 #span1initem1{
+
+font-weight: bold;
+font-style: normal;
+font-size: large;
+ letter-spacing:1px ;
+}
+
+
+.item #item1 #span2initem1{
+
+font-weight: 600;
+font-style: normal;
+font-size: 10px;
+letter-spacing:5px ;
+}
+
+.item #item2{
+display: inline-flex;
+gap: 2px;
 
 
 }
+
+
+.item #item2 #span1initem2{
+
+font-weight: bold;
+}
+
+
+.item #item2 #span2initem2{
+
+font-weight: Regular;
+}
+
+.item #item3{
+font-weight: bold;
+
+}
+.item #item4{
+font-weight: 600;
+}
+
+
+.item #item5{
+font-weight: bold;
+font-size: larger;
+}
+
+
