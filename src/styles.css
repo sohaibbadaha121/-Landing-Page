@@ -203,7 +203,7 @@ color: #00D47E;
 font-weight: bold;
 font-style: normal;
 font-size: large;
- letter-spacing:1px ;
+letter-spacing:1px ;
 }
 
 
@@ -341,5 +341,82 @@ background-color: #F2F4F4;
   gap: 30px;
   margin-left: 30px;
   font-weight: regular;
+
+}
+.text5 #span2inpage3{
+
+color:#8D959D;
+
+}
+.text5{
+
+font-weight: 300;
+}
+
+.get1{
+    height: 40px;
+    background-color: #00D47E;
+    color: white;
+
+}
+
+.textandgetbut{
+/* display: flex;
+flex-direction: column; */
+gap: 24%;
+left: 50px;
+position: absolute;
+top: 50px;
+
+}
+
+.page3one{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* gap: 300px; */
+    width: 100%;
+
+    margin-bottom: 400px;
+   
+
+}
+ 
+.textandbutandtable{
+     position: relative; 
+     width: 600px;
+
+}
+
+.table {
+   position: absolute;
+   bottom: 50px;
+   left: 30px;
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+  gap:10px;
+  width: 450px;  
+  
+}
+
+.imag7 img{
+
+border-radius: 20px;
+
+
+}
+.solar{
+
+background-color: white;
+  border: 2px solid #F2F4F4 ;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 
 }
