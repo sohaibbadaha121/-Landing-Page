@@ -360,6 +360,14 @@ font-weight: 300;
 
 }
 
+
+.contenir3{
+
+   display: block;  
+
+
+}
+
 .textandgetbut{
 /* display: flex;
 flex-direction: column; */
@@ -370,6 +378,7 @@ top: 50px;
 
 }
 
+
 .page3one{
 
     display: flex;
@@ -378,7 +387,7 @@ top: 50px;
     /* gap: 300px; */
     width: 100%;
 
-    margin-bottom: 400px;
+    margin-bottom: 10px;
    
 
 }
@@ -417,6 +426,49 @@ background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
 
+.Medtronic{
+    width: 70%;
+    height :500px;
+    background-color: #F2F4F4;
+    margin-top: 4%;
+    margin-left: 15%;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-bottom:30px ;
+}
+
+.Medtronic #head{
+
+    padding-top: 50p;
+    margin-top: 50px;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+    font-weight: 500;
+
+
+}
+
+.get5
+{
+     height: 40px;
+    background-color: #00D47E;
+    color: white;
+    margin-bottom: 100px;
+}
+#car{
+position: absolute;
+width: 25%;
+height: 480px;
+bottom: 10px;
+right: 280px;
+border-radius: 20px;
+
+}
+.carandmedt{
+    position: relative;
 
 }
