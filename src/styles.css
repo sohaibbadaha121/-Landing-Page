@@ -1,5 +1,5 @@
 
-.contenir{
+.contenir1{
 
 display: block;
 }
@@ -113,7 +113,7 @@ z-index: 2;
 
  .text3{
 
-   font-weight: 400;
+   font-weight :300;
 
  }
 
@@ -258,3 +258,88 @@ font-size: larger;
 }
 
 
+.contenir2{
+
+display: block;
+margin-top: 8%;
+
+background-color: #F2F4F4;
+}
+
+.text4{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding-top: 6%;
+}
+
+.service {
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10x;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 4%;
+  margin-bottom: 6%;
+  
+}
+.service .service1 {
+  background-color: white;
+  border: #F2F4F4 solid 1px;
+  border-top-left-radius: 25px;
+  padding: 10px;
+  font-size: 15px;
+  
+}
+.service .service2 {
+  background-color: white;
+  border: #F2F4F4 solid 1px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+
+.service .service3 {
+  background-color: white;
+  border: #F2F4F4 solid 1px;
+  border-top-right-radius: 25px;
+  padding: 10px;
+  font-size: 15px;
+}
+.service .service4{
+  background-color: white;
+  border: #F2F4F4 solid 1px;
+  border-bottom-left-radius: 25px;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+.service .service5 {
+  background-color: white;
+  border: #F2F4F4 solid 1px;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+
+.service .service6 {
+  background-color: white;
+  border: #F2F4F4 solid 1px;
+  border-bottom-right-radius: 25px;
+  padding: 10px;
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+
+.internal{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 30px;
+  margin-left: 30px;
+  font-weight: regular;
+
+}
