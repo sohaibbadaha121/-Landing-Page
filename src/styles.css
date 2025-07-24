@@ -70,6 +70,36 @@ opacity: 1;
      
 }
 
+.numbers{
+
+
+display: flex;
+justify-content: space-around;
+
+}
+.numbersandtexts{
+display: block;
+background-color:white;
+width: 40%;
+height: 30%;
+position: absolute;
+padding-top: 40px;
+bottom:1px;
+right: 15px;
+border-top-left-radius: 40px;
+
+}
+
+.texts{
+
+display: flex;
+justify-content: space-around;
+margin-top: 5px;
+margin-left: 40px;
+color: #717172;
+
+
+}
 .firstext{
     color :white;
     position :absolute;   
@@ -157,13 +187,21 @@ margin-left: 220px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: #F2F4F4 solid 1vw;
+    border: #F2F4F4 solid 2px;
     background-color:#F2F4F4 ;
     width: 1px;
     height: 1px;
     border-radius:50%;
     padding: 120px;
     text-align: center;
+}
+
+.item:hover{
+
+background-color: white;
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+
 
 }
 
@@ -593,3 +631,48 @@ gap: 55%;
 margin-left: 12%;
 
 }
+
+.photoinphoto{
+    
+    width: 17%;
+    height: 39%;
+    position: absolute;
+    top :12%;
+    right: 10%;
+    background-color: rgba(186, 185, 185, 0.4);
+    border-radius: 15px;
+
+
+}
+
+.photoinphoto img{
+
+margin-top:     10px;
+margin-left:    10px;
+border-radius: 15px;
+
+}
+
+.photoinphoto p{
+color: white;
+margin-top: 20px ;
+margin-left: 180px;
+
+}
+/* .myway{
+
+position: absolute;
+background-color: white;
+bottom:0;
+right: 0;
+
+}
+
+,.myway hr{
+
+color: #00D47E;
+width: 30px;
+height: 4px;
+border-radius: 50px;
+
+} */
