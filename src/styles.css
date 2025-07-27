@@ -38,6 +38,7 @@ button{
     background: transparent;
     cursor: pointer;
     
+    
 }
 .log{
 
@@ -45,6 +46,7 @@ button{
     border-color: #ccc;
     background: transparent;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-right:1px;
 }
 
 .get{
@@ -52,6 +54,7 @@ button{
     color: white;
     background-color: #00D47E;
     border-color: #00D47E;
+    margin-right: 0%;
 }
 
 .xuryaprodct #fphoto{
@@ -86,7 +89,8 @@ position: absolute;
 padding-top: 40px;
 bottom:1px;
 right: 15px;
-border-top-left-radius: 40px;
+border-top-left-radius: 30px;
+
 
 }
 
@@ -660,19 +664,44 @@ margin-left: 180px;
 
 }
 /* .myway{
-
 position: absolute;
-background-color: white;
-bottom:0;
-right: 0;
-
-}
-
-,.myway hr{
-
-color: #00D47E;
-width: 30px;
-height: 4px;
-border-radius: 50px;
+border: 1px solid white;
+background-color :white;
+padding: 0px;
+bottom: 240px;
+right: 12px;
+width: 10px;
+height: 10px;
+border-bottom-right-radius: 15px;
+border-width: 10px;
+opacity: 0.1;
 
 } */
+
+
+.curveone{
+
+width: 2rem;
+height: 2rem;
+contain: "";
+position: absolute;
+
+background-color: transparent;
+bottom: 1px;
+left: 1028px;
+border-bottom-right-radius: 1.3rem;
+box-shadow: 0.5rem 0.5rem white;
+}
+
+.curvetwo{
+
+  width: 2rem;
+  height: 2rem;
+  contain: "";
+  position: absolute;
+  background-color: transparent;
+  right: 15px;
+  bottom: 241px;
+  border-bottom-right-radius: 1.3rem;
+  box-shadow: 0.5rem 0.5rem white;
+}
