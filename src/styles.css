@@ -1,4 +1,4 @@
-.NavAndBigPictureAndTextAndCircles {
+.navandbigpictureandtextandcircles {
   display: block;
 }
 
@@ -9,16 +9,16 @@ nav {
   padding: 1px 30px;
 }
 
-.XuryaLogo img {
+.xuryalogo img {
   height: 100px;
 }
 
-nav .Links {
+nav .links {
   display: flex;
   gap: 35px;
 }
 
-nav .Links a {
+nav .links a {
   text-decoration: none;
   font-size: 16px;
   color: #717172;
@@ -33,7 +33,7 @@ button {
   background: transparent;
   cursor: pointer;
 }
-.LoginButton {
+.loginbutton {
   color: #333;
   border-color: #ccc;
   background: transparent;
@@ -41,14 +41,14 @@ button {
   margin-right: 1px;
 }
 
-.GitInTouchButton {
+.gitintouchbutton {
   color: #ffffff;
   background-color: #00d47e;
   border-color: #00d47e;
   margin-right: 0%;
 }
 
-.BigPicture #BigPicture {
+.bigpicture #bigpicture {
   width: 98.5%;
   height: 800px;
   margin-left: 13px;
@@ -58,16 +58,16 @@ button {
   opacity: 1;
 }
 
-.BigPicture {
+.bigpicture {
   position: relative;
 }
 
-.NumbersInStatisticsBox {
+.numbersinstatisticsbox {
   display: flex;
   justify-content: space-around;
   font-weight: 400;
 }
-.StatisticsBox {
+.statisticsbox {
   display: block;
   background-color: #ffffff;
   width: 40%;
@@ -79,14 +79,14 @@ button {
   border-top-left-radius: 30px;
 }
 
-.TextsInStatisticsBox {
+.textsinstatisticsbox {
   display: flex;
   justify-content: space-around;
   margin-top: 5px;
   margin-left: 40px;
   color: #717172;
 }
-.EnergyProviderText {
+.energyprovidertext {
   color: #ffffff;
   position: absolute;
   top: 30%;
@@ -95,7 +95,7 @@ button {
   font-weight: Regula;
 }
 
-.NewEnergyText {
+.newenergytext {
   position: absolute;
   top: 34%;
   left: 6%;
@@ -105,7 +105,7 @@ button {
   z-index: 2;
 }
 
-.GetInTouchAndOurServicesLinkes {
+.getintouch-and-ourserviceslinkes {
   display: flex;
   position: absolute;
   bottom: 30%;
@@ -113,30 +113,30 @@ button {
   gap: 40px;
 }
 
-.GetInTouchAndOurServicesLinkes a {
+.getintouch-and-ourserviceslinkes a {
   text-decoration: none;
   color: #ffffff;
 }
 
-.QualityText {
+.qualitytext {
   font-weight: 300;
 }
 
-.QualityText #CustomerTrust {
+.qualitytext #customertrust {
   color: #8d959d;
 }
 
-.TextUnderFirstPhoto {
+.text-under-first-photo {
   display: flex;
   justify-content: space-around;
   margin-top: 100px;
 }
 
-.TextUnderFirstPhoto #SmallQualityText {
+.text-under-first-photo #smallqualitytext {
   font-weight: Regular;
   color: #717172;
 }
-.Circles {
+.circles {
   display: flex;
   justify-content: center;
   height: 100%;
@@ -145,7 +145,7 @@ button {
   margin-top: 50px;
 }
 
-.Circle {
+.circle {
   margin: 0;
   display: flex;
   justify-content: center;
@@ -159,56 +159,56 @@ button {
   text-align: center;
 }
 
-.Circle:hover {
+.circle:hover {
   background-color: #ffffff;
   box-shadow: 0 5px 10px #00000033;
 }
 
-.Circle #Circle1 {
+.circle #p-for-circle1 {
   font-weight: bold;
   color: #00d47e;
 }
 
-.Circle #Circle1 #trend {
+.circle #p-for-circle1 #trend {
   font-weight: bold;
   font-style: normal;
   font-size: large;
   letter-spacing: 1px;
 }
 
-.Circle #Circle1 #micro {
+.circle #p-for-circle1 #micro {
   font-weight: 600;
   font-style: normal;
   font-size: 10px;
   letter-spacing: 5px;
 }
 
-.Circle #Circle2 {
+.circle #p-for-circle2 {
   display: inline-flex;
   gap: 2px;
 }
 
-.Circle #Circle2 #telai {
+.circle #p-for-circle2 #telai {
   font-weight: bold;
 }
 
-.Circle #Circle2 #Cygate {
+.circle #p-for-circle2 #Cygate {
   font-weight: Regular;
 }
 
-.Circle #Circle3 {
+.circle #p-for-circle3 {
   font-weight: bold;
 }
-.Circle #Circle4 {
+.circle #p-for-circle4 {
   font-weight: 600;
 }
 
-.Circle #Circle5 {
+.circle #p-for-circle5 {
   font-weight: bold;
   font-size: larger;
 }
 
-.QualityTextAndService {
+.qualitytext-and-service {
   display: block;
   margin-top: 8%;
   margin-bottom: 8%;
@@ -251,7 +251,7 @@ button {
   width: 40px;
   height: 40px;
 }
-#LayeredSecurity {
+#layeredsecurity {
   color: #7d7d7d;
 }
 
@@ -266,17 +266,17 @@ button {
   color: #ffffff;
 }
 
-.TrustedTextandTable {
+.trustedtext-and-table {
   display: block;
 }
-.textandgetbut {
+.text-and-getbutton {
   gap: 24%;
   left: 50px;
   position: absolute;
   top: 0;
 }
 
-.Allcontant {
+.all-content {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -284,7 +284,7 @@ button {
   margin-bottom: 10px;
 }
 
-.textandbutandtable {
+.text-and-button-and-table {
   position: relative;
   width: 600px;
   padding: 200px;
@@ -301,7 +301,7 @@ button {
   width: 450px;
 }
 
-.Manimg img {
+.man-img img {
   border-radius: 20px;
   width: 500px;
 }
@@ -324,7 +324,7 @@ button {
 .solar a {
   color: black;
 }
-.Medtronic {
+.medtronic {
   width: 70%;
   height: 500px;
   background-color: #f2f4f4;
@@ -338,21 +338,21 @@ button {
   padding-bottom: 30px;
 }
 
-.Medtronic #head {
+.medtronic #head {
   padding-top: 50p;
   margin-top: 50px;
   font-family: "Helvetica Neue", "Arial", sans-serif;
   font-weight: 500;
 }
 
-.Viewcasestudy {
+.viewcasestudy-button {
   height: 40px;
   background-color: #00d47e;
   color: #ffffff;
   margin-bottom: 100px;
   width: 150px;
 }
-#carimg {
+#car-img {
   position: absolute;
   width: 25%;
   height: 480px;
@@ -360,7 +360,7 @@ button {
   right: 280px;
   border-radius: 20px;
 }
-.CarAndMedtronic {
+.car-and-medtronic {
   position: relative;
 }
 .line {
@@ -408,7 +408,7 @@ button {
   margin-top: 150px;
   width: 100%;
 }
-.SupportTexts {
+.supporttexts {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -417,20 +417,20 @@ button {
   margin-bottom: 150px;
 }
 
-#FirstText {
+#firsttext {
   position: absolute;
   top: 220px;
   color: #ffffff;
 }
 
-#SecondText {
+#secondtext {
   position: absolute;
   top: 220px;
   left: 550px;
   color: #ffffff;
 }
 
-.nav2 {
+.nav-two {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -440,7 +440,7 @@ button {
   color: #ffffff;
 }
 
-.finalline {
+.blackbox-line {
   width: 76%;
   height: 3px;
   background-color: #cec2c2;
@@ -448,7 +448,7 @@ button {
   margin-top: 3%;
 }
 
-.Terms {
+.terms {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -458,7 +458,7 @@ button {
   color: #ffffff;
 }
 
-.SmallPictureInTheGigPicture {
+.smallpicture-inthebigpicture {
   width: 17%;
   height: 39%;
   position: absolute;
@@ -468,7 +468,7 @@ button {
   border-radius: 15px;
 }
 
-.SmallPictureInTheGigPicture img {
+.smallpicture-inthebigpicture img {
   margin-top: 10px;
   margin-left: 10px;
   border-radius: 15px;
@@ -476,13 +476,13 @@ button {
   height: 220px;
 }
 
-.SmallPictureInTheGigPicture p {
+.smallpicture-inthebigpicture p {
   color: #ffffff;
   margin-top: 20px;
   margin-left: 180px;
 }
 
-.curveone {
+.curve-one {
   width: 2rem;
   height: 2rem;
   contain: "";
@@ -494,7 +494,7 @@ button {
   box-shadow: 0.5rem 0.5rem #ffffff;
 }
 
-.curvetwo {
+.curve-two {
   width: 2rem;
   height: 2rem;
   contain: "";
@@ -505,10 +505,10 @@ button {
   border-bottom-right-radius: 1.3rem;
   box-shadow: 0.5rem 0.5rem #ffffff;
 }
-.SupportTexts .QualityText #FocusingQuality {
+.SupportTexts .qualitytext #focusingquality {
   color: #ffffff;
 }
-.buttonundertextblack p {
+.button-under-text p {
   color: #ffffff;
 }
 #whitebutton {
@@ -521,7 +521,7 @@ button {
   height: 40px;
   background-color: #000000;
 }
-.Links #LinksForBlackbox {
+.linkss #links-for-blackbox {
   color: #ffffff;
 }
 #CTO {
